@@ -1,2 +1,2 @@
-source 'http://manage.local-admin.net'
+source 'http://inf24.de'
 metadata
