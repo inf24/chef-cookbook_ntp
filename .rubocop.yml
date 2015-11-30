@@ -1,0 +1,6 @@
+Style/SingleSpaceBeforeFirstArg:
+  Exclude:
+  - metadata.rb
+
+Style/LineLength:
+  Enabled: false
