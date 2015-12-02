@@ -1,23 +1,16 @@
 ntp Cookbook
 ============
-TODO: Enter the cookbook description here.
+This Cookbook configure NTP service.
 
-e.g.
-This cookbook makes your favorite breakfast sandwich.
+It's support CentOS >= 6.5.
 
 Requirements
 ------------
-TODO: List your cookbook requirements. Be sure to include any requirements this cookbook has on platforms, libraries, other cookbooks, packages, operating systems, etc.
-
-e.g.
 #### packages
-- `toaster` - ntp needs toaster to brown your bagel.
+- `template` - ntp needs toaster to brown your bagel.
 
 Attributes
 ----------
-TODO: List your cookbook attributes here.
-
-e.g.
 #### ntp::default
 <table>
   <tr>
@@ -27,10 +20,10 @@ e.g.
     <th>Default</th>
   </tr>
   <tr>
-    <td><tt>['ntp']['bacon']</tt></td>
-    <td>Boolean</td>
-    <td>whether to include bacon</td>
-    <td><tt>true</tt></td>
+    <td><tt>['ntp']['timeservers']</tt></td>
+    <td>array</td>
+    <td>list of NTP server</td>
+    <td><tt>[0..3].de.pool.ntp.org</tt></td>
   </tr>
 </table>
 
