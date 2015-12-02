@@ -58,4 +58,4 @@ e.g.
 
 License and Authors
 -------------------
-Authors: TODO: List authors
+Authors: Maximilian Sparenberg | Max.Sparenberg@icloud.com
